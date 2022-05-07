@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table>
+        <tr>
+          <td> <div class="shopping-card">
+            <span class="product-image">
+              <img src="./images/lenovo.jpg" alt="un pc marque lenovo">
+            </span>
+            <p> Ecran 15.6" LED HD - Processeur Intel Celeron Dual Core N4020 
+              <br>4 Mo de mémoire cache - Mémoire 4 Go - Disque 1 To</p>
+          </div>
+        </td>
+        <td class="price">795.00</td>
+        <td><input type="text" name="input"class="qty" size="1"  value=""/></td>
+          <td class="sum">0</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="shopping-card">
+                <span class="product-image">
+                  <img src="./images/tablette.jpg" alt="une tablette noir">
+                </span>
+                <p>Ecran 7" IPS - Résolution 1024 x 600 px  
+                  <br>Processeur Spreadtrum SC9832E CortexTM A53 MP4 quad-core, 1.4Ghz 
+                  <br>Android 9 Pie - RAM 2 Go - Mémoire 16 Go 
+                  <br>Appareils Photos: 2 MP (Arrière), 0.3 MP VGA (Frontale) 
+                  <br> 4G Wifi - Bluetooth - GPS - Batterie 3000 mAh - Garantie 1 an </p>
+              </div>
+            </td>
+            <td class="price">199.00</td>
+            <td><input type="text" name="input"class="qty" size="1"  value=""/></td>
+          <td class="sum">0</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="shopping-card">
+                <span class="product-image">
+                  <img src="./images/power-bank.jpg" alt="Power Bank">
+                </span>
+                <p> Power Bank S-Link IP-G56 - Puissance 5000 mAh 
+                  <br> 2x Ports USB 2.1A / 1A - Câble Micro USB 27cm 
+                  <br> Indicateur LED - Dimensions 12.91 x 63.36 x 90.4 mm 
+                  <br> Poids 101g - Garantie 1 an</p>
+              </div>
+            </td>
+            <td class="price">28.00</td>
+            <td><input type="text" name="input"class="qty" size="1"  value=""/></td>
+          <td class="sum">0</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="shopping-card">
+                <span class="product-image">
+                  <img src="./images/ecran-dell.jpg" alt="Ecran la marque Dell">
+                </span>
+                <p> Ecran Dell 18.5" HD - Résolution 1366 x 768 
+                  <br> Taux de contraste 1000:1 - Luminosité 250 cd/m² 
+                  <br> Format de l'image 16:9 - Temps de réponse 5 ms 
+                  <br> Angle de vision: 170° (horizontal) / 160° (vertical) 
+                  <br> 1x VGA - Dimensions: 266.05 x 445.41 x 52.3 mm 
+                  <br> Poids: 2.64 Kg - Garantie 1 an 
+                    
+                  </p>
+              </div>
+            </td>
+            <td class="price">389.00</td>
+            <td><input type="text" name="input"class="qty" size="1"  value=""/></td>
+          <td class="sum">0</td>
+          </tr> 
+        <tr>
+          <td colspan="3"><input type="button" name="bouton" value="Total TTC" onclick="sommeproduit()"></td>
+          <td input type="text" name="output" value="" id="total">0</td>
+          
+          </tr>
+          </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
